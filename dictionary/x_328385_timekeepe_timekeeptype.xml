@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TimeKeepType" max_length="40" name="x_328385_timekeepe_timekeeptype" type="collection">
+        <element label="id" max_length="40" name="id" type="integer"/>
+        <element label="Is active" max_length="40" name="is_active" type="boolean"/>
+        <element label="timetype" max_length="255" name="timetype" type="string_full_utf8"/>
+    </element>
+</database>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_328385_timekeepe.timekeeptype_user" name="x_328385_timekeepe.timekeeptype_user">4b26bed3db903300346ddde7489619ea</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-25 16:39:11</sys_created_on>
+        <sys_id>8f26bed3db903300346ddde7489619ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4b26bed3db903300346ddde7489619ea</sys_name>
+        <sys_package display_value="TimeKeeper" source="x_328385_timekeepe">f0526e57db503300346ddde7489619e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TimeKeeper">f0526e57db503300346ddde7489619e1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_8f26bed3db903300346ddde7489619ec</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-25 16:39:11</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

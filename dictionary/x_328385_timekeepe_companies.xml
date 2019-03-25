@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Companies" max_length="40" name="x_328385_timekeepe_companies" type="collection">
+        <element label="address1" max_length="255" name="address1" type="string_full_utf8"/>
+        <element label="address2" max_length="255" name="address2" type="string_full_utf8"/>
+        <element label="city" max_length="255" name="city" type="string_full_utf8"/>
+        <element label="Create date" max_length="40" name="create_date" type="glide_date_time"/>
+        <element label="email" max_length="255" name="email" type="string_full_utf8"/>
+        <element label="id" max_length="40" name="id" type="string"/>
+        <element label="name" max_length="255" name="name" type="string_full_utf8"/>
+        <element label="phone" max_length="255" name="phone" type="string_full_utf8"/>
+        <element label="state" max_length="255" name="state" type="string_full_utf8"/>
+        <element label="Zip code" max_length="255" name="zip_code" type="string_full_utf8"/>
+    </element>
+</database>

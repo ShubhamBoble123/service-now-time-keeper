@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="TimeKeep" max_length="40" name="x_328385_timekeepe_timekeep" type="collection">
+        <element label="Company ID" max_length="40" name="company_id" reference="x_328385_timekeepe_companies" type="integer"/>
+        <element label="Keep date" max_length="40" name="keep_date" type="glide_date_time"/>
+        <element label="Keep details" max_length="255" name="keep_details" type="string_full_utf8"/>
+        <element label="Keep time" max_length="40" name="keep_time" type="integer"/>
+        <element label="Timetype ID" max_length="40" name="timetype_id" reference="x_328385_timekeepe_timekeeptype" type="integer"/>
+    </element>
+</database>
