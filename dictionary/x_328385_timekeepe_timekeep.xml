@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="TimeKeep" max_length="40" name="x_328385_timekeepe_timekeep" type="collection">
-        <element label="Company ID" max_length="40" name="company_id" reference="x_328385_timekeepe_companies" type="integer"/>
+        <element choice="3" default="Choice 1" label="Company ID" max_length="40" name="company_id" reference="x_328385_timekeepe_companies" type="reference">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
         <element label="Keep date" max_length="40" name="keep_date" type="glide_date_time"/>
         <element label="Keep details" max_length="255" name="keep_details" type="string_full_utf8"/>
         <element label="Keep time" max_length="40" name="keep_time" type="integer"/>
-        <element label="Timetype ID" max_length="40" name="timetype_id" reference="x_328385_timekeepe_timekeeptype" type="integer"/>
+        <element label="Timetype ID" max_length="40" name="timetype_id" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Company" max_length="1024" name="u_glide_list_1" reference="x_328385_timekeepe_companies" type="glide_list"/>
+        <element default="8192a398dbe43300346ddde74896194d" label="Company List" max_length="32" name="u_reference_2" reference="x_328385_timekeepe_companies" type="reference" use_dependent_field="true"/>
+        <element default="1a31639fdb143300346ddde74896196e" label="Time Type" max_length="32" name="u_reference_3" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
+        <index name="index">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index2">
+            <element name="u_reference_3"/>
+        </index>
     </element>
 </database>
