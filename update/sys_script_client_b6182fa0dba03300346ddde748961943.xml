@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Get the SUM totals for the current month</description>
+        <field>u_glide_list_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>getSumTotals</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+    //Type appropriate comment here, and begin script below
+    var ga = new GlideAjax('SumTimeTotals');
+    ga.addParam('sysparm_name', sumTotals);
+	
+	var result = ga.getXML(ajaxResponse);	
+	
+	function ajaxResponse(serverResponse) { 
+	    // get totals element
+	    var totals = serverResponse.responseXML.getElementsByTagName("totals");
+		return totals;
+    }
+	return result;
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-03-29 17:47:16</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b6182fa0dba03300346ddde748961943</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getSumTotals</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="TimeKeeper" source="x_328385_timekeepe">f0526e57db503300346ddde7489619e1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="TimeKeeper">f0526e57db503300346ddde7489619e1</sys_scope>
+        <sys_update_name>sys_script_client_b6182fa0dba03300346ddde748961943</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-03-29 17:47:16</sys_updated_on>
+        <table>x_328385_timekeepe_timekeep</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

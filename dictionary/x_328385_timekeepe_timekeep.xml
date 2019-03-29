@@ -7,13 +7,14 @@
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element label="Keep date" max_length="40" name="keep_date" type="glide_date_time"/>
-        <element label="Keep details" max_length="255" name="keep_details" type="string_full_utf8"/>
+        <element label="Keep date" mandatory="true" max_length="40" name="keep_date" type="glide_date_time"/>
+        <element label="Keep details" mandatory="true" max_length="255" name="keep_details" type="string_full_utf8"/>
         <element label="Keep time" max_length="40" name="keep_time" type="integer"/>
         <element label="Timetype ID" max_length="40" name="timetype_id" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
+        <element default="0.00" label="Time used" mandatory="true" max_length="40" name="time_used" type="float"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Company" max_length="1024" name="u_glide_list_1" reference="x_328385_timekeepe_companies" type="glide_list"/>
-        <element default="8192a398dbe43300346ddde74896194d" label="Company List" max_length="32" name="u_reference_2" reference="x_328385_timekeepe_companies" type="reference" use_dependent_field="true"/>
-        <element default="1a31639fdb143300346ddde74896196e" label="Time Type" max_length="32" name="u_reference_3" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
+        <element default="8192a398dbe43300346ddde74896194d" label="Company List" mandatory="true" max_length="32" name="u_reference_2" reference="x_328385_timekeepe_companies" type="reference" use_dependent_field="true"/>
+        <element default="1a31639fdb143300346ddde74896196e" label="Time Type" mandatory="true" max_length="32" name="u_reference_3" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
         <index name="index">
             <element name="u_reference_2"/>
         </index>
