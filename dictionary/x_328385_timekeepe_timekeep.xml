@@ -7,8 +7,8 @@
                 <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element label="Keep date" mandatory="true" max_length="40" name="keep_date" type="glide_date_time"/>
-        <element label="Keep details" mandatory="true" max_length="255" name="keep_details" type="string_full_utf8"/>
+        <element label="Date entered" mandatory="true" max_length="40" name="keep_date" type="glide_date_time"/>
+        <element label="Time details" mandatory="true" max_length="255" name="keep_details" type="string_full_utf8"/>
         <element label="Keep time" max_length="40" name="keep_time" type="integer"/>
         <element label="Timetype ID" max_length="40" name="timetype_id" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
         <element default="0.00" label="Time used" mandatory="true" max_length="40" name="time_used" type="float"/>
