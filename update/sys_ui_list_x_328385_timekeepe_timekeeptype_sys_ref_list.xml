@@ -3,7 +3,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>timetype</element>
-            <list_id display_value="x_328385_timekeepe_timekeeptype" element="NULL" name="x_328385_timekeepe_timekeeptype" parent="NULL" relationship="NULL" sys_domain="global" view="d84b1371dd0323007850f2ee37a03972">81e867dcdbe43300346ddde748961915</list_id>
+            <list_id display_value="x_328385_timekeepe_timekeeptype" element="NULL" name="x_328385_timekeepe_timekeeptype" parent="NULL" relationship="NULL" sys_domain="global" view="d5bc1160db203300d3d992dadb96199f">81e867dcdbe43300346ddde748961915</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -40,7 +40,7 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-03-28 22:54:42</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">d84b1371dd0323007850f2ee37a03972</view>
+            <view display_value="Reference List" name="sys_ref_list">d5bc1160db203300d3d992dadb96199f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

@@ -16,10 +16,16 @@
         <element default="8192a398dbe43300346ddde74896194d" label="Company List" mandatory="true" max_length="32" name="u_reference_2" reference="x_328385_timekeepe_companies" type="reference" use_dependent_field="true"/>
         <element default="1a31639fdb143300346ddde74896196e" label="Time Type" mandatory="true" max_length="32" name="u_reference_3" reference="x_328385_timekeepe_timekeeptype" type="reference"/>
         <index name="index">
-            <element name="u_reference_2"/>
+            <element name="timetype_id"/>
         </index>
         <index name="index2">
+            <element name="u_reference_2"/>
+        </index>
+        <index name="index3">
             <element name="u_reference_3"/>
+        </index>
+        <index name="index4">
+            <element name="company_id"/>
         </index>
     </element>
 </database>
