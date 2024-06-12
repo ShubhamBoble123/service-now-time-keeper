@@ -3,6 +3,7 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_328385_timekeepe.SumTimeTotals</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description>Sum the totals on the sum_totals view for TimeKeep List</description>
         <name>SumTimeTotals</name>

@@ -14,6 +14,5 @@
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-03-25 15:15:38</sys_updated_on>
         <sys_user_role display_value="x_328385_timekeepe.companies_user" name="x_328385_timekeepe.companies_user">fa03e65bdb503300346ddde74896196d</sys_user_role>
-        <transaction_id/>
     </sys_security_acl_role>
 </record_update>

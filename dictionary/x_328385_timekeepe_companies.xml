@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Companies" max_length="40" name="x_328385_timekeepe_companies" type="collection">
+    <element db_object_id="4efcb0f44732021073a8a22f316d43fd" label="Companies" max_length="40" name="x_328385_timekeepe_companies" type="collection">
         <element label="address1" max_length="255" name="address1" type="string_full_utf8"/>
         <element label="address2" max_length="255" name="address2" type="string_full_utf8"/>
         <element label="city" max_length="255" name="city" type="string_full_utf8"/>
